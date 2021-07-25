@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm George</h1>
-<h3 align="center">I’m a full-stack developer, web developer and devops engineer.</h3>
+<h3 align="center">I’m a full-stack developer, web designer and devops engineer.</h3>
 
 - 📝 I write from time to time at [https://georgev.design/blog](https://georgev.design/blog)
 
