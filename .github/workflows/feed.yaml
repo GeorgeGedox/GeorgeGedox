@@ -1,0 +1,20 @@
+name: Fetch blog posts
+
+on:
+  schedule:
+    # Once a day at 8 AM
+    - cron: 0 8 * * *
+  push:
+    branches:
+      - master
+     
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: sarisia/actions-readme-feed@v1
+        with:
+          url: 'https://georgev.design/rss.xml'
+          file: 'README.md'
+      - uses: sarisia/actions-commit@master
